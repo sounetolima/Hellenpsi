@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hellenmatospsi.netlify.app/sitemap.xml
+Sitemap: https://hellenmatospsicologa.com.br/sitemap.xml
