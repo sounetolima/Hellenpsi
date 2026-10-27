@@ -162,17 +162,6 @@ ul,ol{padding:0;list-style:none}
 .hero__cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(24px,3vw,36px)}
 
 /* áreas */
-.areas{background:var(--noite-2);border-block:1px solid var(--lin)}
-.areas ul{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
-.areas li{display:grid;place-items:center;padding:22px 14px;border-left:1px solid var(--lin);text-align:center;font-size:12.5px;font-weight:700;line-height:1.5;letter-spacing:.14em;text-transform:uppercase;color:var(--txt-2)}
-.areas li:first-child{border-left:0}
-@media(max-width:900px){
-  .areas ul{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .areas li{border-left:0;border-top:1px solid var(--lin)}
-  .areas li:nth-child(-n+2){border-top:0}
-  .areas li:nth-child(even){border-left:1px solid var(--lin)}
-  .areas li:last-child{grid-column:1/-1;border-left:0}
-}
 
 /* sobre */
 .sobre{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(48px,7vw,112px);align-items:center}
@@ -386,17 +375,6 @@ ul,ol{padding:0;list-style:none}
       </div>
     </section>
 
-    <section class="areas" aria-label="Áreas de atuação">
-      <div class="wrap">
-        <ul>
-          <li>Terapia de casal</li>
-          <li>Terapia individual</li>
-          <li>Psicanálise e psicoterapia breve</li>
-          <li>Sexualidade e relacionamentos</li>
-          <li>Gestão estratégica de pessoas</li>
-        </ul>
-      </div>
-    </section>
 
     <section class="sec sec--creme" id="sobre">
       <div class="wrap sobre">
