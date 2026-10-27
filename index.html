@@ -136,13 +136,14 @@ ul,ol{padding:0;list-style:none}
 .btn--contorno:hover{background:var(--noite);color:var(--creme)}
 
 /* tipos */
-.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--blush)}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#d4a25f}
 .h2{margin-top:16px;font-size:clamp(32px,4.6vw,60px);font-weight:800;line-height:1.04;letter-spacing:-.02em;text-wrap:balance}
 .h2 .lt{display:block;font-weight:300}
 .h2 b{display:block;font-weight:800}
 .sec{padding-block:clamp(64px,10vw,120px)}
 .sec--creme{background:var(--creme);color:var(--tinta)}
 .sec--noite{background:var(--noite)}
+.sec--noite .h2{color:var(--creme)}
 .sec--vinho{background:var(--vinho);color:var(--creme)}
 .sec--creme .eyebrow{color:var(--vinho)}
 
@@ -188,7 +189,7 @@ ul,ol{padding:0;list-style:none}
 /* atendimentos */
 .cab{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px clamp(32px,5vw,80px);align-items:end;padding-inline:clamp(16px,4vw,48px)}
 .cab .h2{margin-top:16px}
-.cab__p{max-width:46ch;padding-bottom:.6em;color:var(--txt-2)}
+.cab__p{max-width:46ch;padding-bottom:.6em;color:rgba(235,229,220,.92)}
 .atend{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,80px);align-items:start;margin-top:clamp(36px,5vw,56px)}
 .abas{display:flex;flex-direction:column;border-bottom:1px solid var(--lin)}
 .aba{appearance:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 4px;border:0;border-top:1px solid var(--lin);background:none;color:rgba(235,229,220,.6);text-align:left;cursor:pointer;font:300 clamp(22px,2.6vw,34px)/1.15 var(--f);letter-spacing:-.01em;transition:color .25s,padding .25s}
@@ -196,17 +197,17 @@ ul,ol{padding:0;list-style:none}
 .aba:hover{color:var(--creme)}
 .aba[aria-selected="true"]{padding-left:12px;color:var(--creme);font-weight:800}
 .aba[aria-selected="true"] svg{opacity:1;transform:none}
-.painel{padding:clamp(24px,3.4vw,44px);border:1px solid var(--lin);border-radius:28px;background:linear-gradient(160deg,rgba(235,229,220,.08),rgba(235,229,220,.02))}
+.painel{padding:clamp(24px,3.4vw,44px);border:1.5px solid rgba(235,229,220,.3);border-radius:28px;background:linear-gradient(160deg,rgba(235,229,220,.15),rgba(235,229,220,.08))}
 .painel.anim{animation:entra .45s ease}
 @keyframes entra{from{opacity:.35;transform:translateY(8px)}to{opacity:1;transform:none}}
-.painel h3{font-size:clamp(24px,2.6vw,34px);font-weight:800;line-height:1.1;letter-spacing:-.015em}
-.painel p{margin-top:16px;color:var(--txt-2)}
-.painel .eyebrow{display:block;margin-top:30px}
-.painel ul{display:grid;gap:10px;margin-top:14px}
+.painel h3{font-size:clamp(24px,2.6vw,34px);font-weight:800;line-height:1.1;letter-spacing:-.015em;color:var(--creme)}
+.painel p{margin-top:16px;color:rgba(235,229,220,.95)}
+.painel .eyebrow{display:block;margin-top:30px;color:#d4a25f}
+.painel ul{display:grid;gap:10px;margin-top:14px;color:rgba(235,229,220,.9)}
 .painel li{position:relative;padding-left:30px}
 .painel li::before{content:"";position:absolute;left:0;top:.95em;width:18px;height:1px;background:var(--blush)}
 .painel .btn{margin-top:32px}
-.painel small{display:block;margin-top:16px;font-size:13px;color:var(--txt-2);line-height:1.6}
+.painel small{display:block;margin-top:16px;font-size:13px;color:rgba(235,229,220,.85);line-height:1.6}
 @media(max-width:900px){
   .cab{grid-template-columns:minmax(0,1fr)}
   .atend{grid-template-columns:minmax(0,1fr)}
