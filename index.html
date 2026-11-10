@@ -405,10 +405,10 @@ ul,ol{padding:0;list-style:none}
             <li>Estudos continuados em Psicanálise</li>
           </ul>
           <p style="font-weight:700;margin-bottom:24px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#651238">CRP 19/4598</p>
-          <p style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Hellen Matos é psicóloga clínica e atende pessoas e casais a partir da psicanálise. Seu trabalho passa por temas como sexualidade, desejo e relacionamentos.</p>
-          <p style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Também atua com gestão estratégica de pessoas, levando o olhar da psicologia para o ambiente de trabalho, as lideranças e as relações entre equipes.</p>
-          <p style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Na clínica, cada história pede um ritmo e um formato próprios. A escuta vem primeiro, sem pressa e sem julgamento.</p>
-          <p style="margin-bottom:16px;color:var(--vinho);font-size:14px">Atendimento presencial em Aracaju, Sergipe, e on-line, conforme disponibilidade.</p>
+          <p data-cms="sobre.p1" style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Hellen Matos é psicóloga clínica e atende pessoas e casais a partir da psicanálise. Seu trabalho passa por temas como sexualidade, desejo e relacionamentos.</p>
+          <p data-cms="sobre.p2" style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Também atua com gestão estratégica de pessoas, levando o olhar da psicologia para o ambiente de trabalho, as lideranças e as relações entre equipes.</p>
+          <p data-cms="sobre.p3" style="margin-bottom:24px;color:var(--vinho);font-size:14px;line-height:1.65">Na clínica, cada história pede um ritmo e um formato próprios. A escuta vem primeiro, sem pressa e sem julgamento.</p>
+          <p data-cms="sobre.p4" style="margin-bottom:16px;color:var(--vinho);font-size:14px">Atendimento presencial em Aracaju, Sergipe, e on-line, conforme disponibilidade.</p>
           <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
             <span style="background:#651238;color:#d4a25f;padding:10px 16px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap">Psicanálise</span>
             <span style="background:#651238;color:#d4a25f;padding:10px 16px;border-radius:999px;font-size:14px;font-weight:700;white-space:nowrap">Psicoterapia breve</span>
@@ -1015,6 +1015,77 @@ ul,ol{padding:0;list-style:none}
         navigator.clipboard.writeText(num.textContent.trim()).then(function(){ flash('Número copiado'); }, select);
       } else { select(); }
     });
+  }
+})();
+</script>
+<script>
+/* Conteúdo editável (content/site.json, gerenciado pelo painel /admin).
+   Se o arquivo não carregar, o HTML acima continua valendo. */
+(function(){
+  fetch('content/site.json', {cache: 'no-store'})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){ if (d) aplicar(d); })
+    .catch(function(){});
+
+  function aplicar(d){
+    if (d.sobre) {
+      ['p1','p2','p3','p4'].forEach(function(k){
+        var el = document.querySelector('[data-cms="sobre.' + k + '"]');
+        if (el && d.sobre[k]) el.textContent = d.sobre[k];
+      });
+    }
+    if (d.foto_sobre) {
+      var foto = document.querySelector('.arco__foto');
+      if (foto) foto.src = d.foto_sobre;
+    }
+    (d.atendimentos || []).forEach(function(a, i){
+      var p = document.getElementById('painel-' + (i + 1));
+      if (!p) return;
+      var h = p.querySelector('h3'); if (h) h.textContent = a.title;
+      var paras = p.querySelectorAll(':scope > p');
+      if (paras[0]) paras[0].textContent = a.text;
+      var ey = p.querySelector('.eyebrow'); if (ey) ey.textContent = a.eyebrow;
+      var ul = p.querySelector('ul');
+      if (ul && a.bullets) {
+        ul.innerHTML = '';
+        a.bullets.forEach(function(b){ var li = document.createElement('li'); li.textContent = b; ul.appendChild(li); });
+      }
+      if (a.extra) {
+        if (paras[1]) { paras[1].textContent = a.extra; }
+        else if (ul) {
+          var ex = document.createElement('p');
+          ex.textContent = a.extra;
+          ex.style.cssText = 'margin-top:16px;font-size:14px;line-height:1.6';
+          ul.insertAdjacentElement('afterend', ex);
+        }
+      } else if (paras[1]) { paras[1].remove(); }
+      var btn = p.querySelector('.btn');
+      if (btn) {
+        if (a.cta_label && btn.firstChild) btn.firstChild.textContent = a.cta_label + ' ';
+        if (a.cta_message) btn.href = 'https://wa.me/5579996345757?text=' + encodeURIComponent(a.cta_message);
+      }
+      var sm = p.querySelector('small'); if (sm && a.note) sm.textContent = a.note;
+    });
+    if (d.faq && d.faq.length) {
+      var faq = document.querySelector('.faq');
+      if (faq) {
+        faq.innerHTML = '';
+        d.faq.forEach(function(item){
+          var det = document.createElement('details');
+          var s = document.createElement('summary'); s.textContent = item.q;
+          var p = document.createElement('p'); p.textContent = item.a;
+          det.appendChild(s); det.appendChild(p); faq.appendChild(det);
+        });
+      }
+    }
+    if (d.carrossel) {
+      var imgs = document.querySelectorAll('.car__slide img');
+      d.carrossel.forEach(function(s, i){
+        if (!imgs[i]) return;
+        if (s.src) imgs[i].setAttribute('src', s.src);
+        if (s.alt) imgs[i].alt = s.alt;
+      });
+    }
   }
 })();
 </script>

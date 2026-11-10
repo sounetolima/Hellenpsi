@@ -1,0 +1,110 @@
+{
+  "sobre": {
+    "p1": "Hellen Matos é psicóloga clínica e atende pessoas e casais a partir da psicanálise. Seu trabalho passa por temas como sexualidade, desejo e relacionamentos.",
+    "p2": "Também atua com gestão estratégica de pessoas, levando o olhar da psicologia para o ambiente de trabalho, as lideranças e as relações entre equipes.",
+    "p3": "Na clínica, cada história pede um ritmo e um formato próprios. A escuta vem primeiro, sem pressa e sem julgamento.",
+    "p4": "Atendimento presencial em Aracaju, Sergipe, e on-line, conforme disponibilidade."
+  },
+  "foto_sobre": "",
+  "atendimentos": [
+    {
+      "title": "Psicoterapia individual",
+      "text": "Um espaço para se escutar, compreender o que pesa, reconhecer padrões que se repetem e dar sentido ao que você sente. A partir da perspectiva psicanalítica e da psicoterapia breve, o trabalho considera sua história, seus conflitos e suas necessidades, favorecendo o bem-estar emocional e a construção de uma vida mais autêntica, alinhada aos seus desejos e à sua singularidade.",
+      "eyebrow": "A psicoterapia pode fazer sentido para você se",
+      "bullets": [
+        "Repete padrões nos relacionamentos e tem dificuldade para compreender o porquê.",
+        "Sente sobrecarga emocional, ansiedade ou dificuldade para lidar com as próprias emoções.",
+        "Percebe oscilações de humor ou conflitos nas relações amorosas, familiares ou profissionais.",
+        "Deseja compreender sua história e elaborar experiências difíceis ou traumáticas.",
+        "Tem dificuldade para reconhecer seus desejos, estabelecer limites ou tomar decisões.",
+        "Está atravessando perdas, mudanças ou momentos importantes de transição.",
+        "Enfrenta procrastinação, insegurança ou bloqueios emocionais na preparação para provas, concursos e desafios profissionais.",
+        "Sente que algo não vai bem, mas ainda não consegue colocar em palavras.",
+        "Quer fortalecer sua saúde emocional e se preparar melhor para os desafios da vida."
+      ],
+      "extra": "",
+      "cta_label": "Conversar sobre psicoterapia individual",
+      "cta_message": "Olá Hellen, encontrei seu site e gostaria de informações sobre a psicoterapia individual.",
+      "note": "Na consulta inicial, podemos compreender o que te trouxe e avaliar se a psicoterapia faz sentido para você."
+    },
+    {
+      "title": "Terapia de casal",
+      "text": "Um espaço acolhedor a dois para compreender o que aproxima, o que afasta e o que já não encontra lugar na relação. A partir da perspectiva psicanalítica, o trabalho considera a história, a singularidade e a participação de cada pessoa na construção do vínculo, ajudando o casal a elaborar conflitos, rever acordos e encontrar novas formas de diálogo, intimidade e convivência.",
+      "eyebrow": "A terapia de casal pode fazer sentido se",
+      "bullets": [
+        "As conversas terminam nos mesmos conflitos, entre cobranças, silêncio ou distanciamento.",
+        "A confiança foi abalada por traições, mentiras ou ressentimentos.",
+        "O desejo, a intimidade ou a vida sexual mudaram e se tornaram fonte de sofrimento.",
+        "Diferenças familiares, culturais ou de expectativas dificultam a convivência.",
+        "A chegada dos filhos, o adoecimento ou mudanças profissionais transformaram a dinâmica da relação.",
+        "Vocês se sentem distantes e não sabem como reconstruir o vínculo.",
+        "Existem dúvidas sobre continuar juntos ou sobre como conduzir uma separação, especialmente quando há filhos e projetos em comum."
+      ],
+      "extra": "",
+      "cta_label": "Conversar sobre terapia de casal",
+      "cta_message": "Olá Hellen, encontrei seu site e gostaria de informações sobre a terapia de casal.",
+      "note": "Na consulta inicial, podemos compreender o momento que vocês vivem e avaliar se a terapia de casal faz sentido para essa etapa da relação."
+    },
+    {
+      "title": "Sexualidade e saúde sexual",
+      "text": "Um espaço acolhedor e sem julgamentos para compreender sua sexualidade, reconhecer seus desejos e lidar com questões que afetam o prazer, a intimidade e a relação com o próprio corpo. O acompanhamento considera sua história e suas experiências, respeitando sua singularidade e seu momento de vida.",
+      "eyebrow": "O acompanhamento pode fazer sentido se você",
+      "bullets": [
+        "Percebe mudanças no desejo sexual, na excitação ou na capacidade de sentir prazer.",
+        "Enfrenta dificuldades como disfunção erétil, ejaculação precoce ou retardada e dificuldade para atingir o orgasmo.",
+        "Vivencia vaginismo, vulvodínia ou dor durante as relações sexuais.",
+        "Sente ansiedade, vergonha ou insegurança em situações sexuais.",
+        "Percebe que o uso de pornografia se tornou compulsivo e interfere na sua vida sexual ou afetiva.",
+        "Está vivenciando mudanças na sexualidade durante a gestação, o puerpério ou a menopausa.",
+        "Deseja compreender melhor seus desejos, fantasias, limites e formas de viver a sexualidade."
+      ],
+      "extra": "As questões sexuais podem envolver fatores emocionais, relacionais e físicos. Quando necessário, poderá ser recomendado o acompanhamento com outros profissionais de saúde, conforme as necessidades de cada caso, para ampliar o cuidado e favorecer a evolução.",
+      "cta_label": "Conversar sobre sexualidade",
+      "cta_message": "Olá Hellen, encontrei seu site e gostaria de informações sobre sexualidade e saúde sexual.",
+      "note": "O primeiro passo é uma conversa sobre sexualidade com liberdade para compreender suas dificuldades e avaliar possibilidades de acompanhamento."
+    },
+    {
+      "title": "Psicologia organizacional",
+      "text": "O olhar da Psicologia aplicado ao desenvolvimento de pessoas e organizações, integrando gestão estratégica de pessoas, desenvolvimento de lideranças, modelagem de processos e desenvolvimento profissional.",
+      "eyebrow": "Pode fazer sentido se você",
+      "bullets": [
+        "deseja melhorar a comunicação, as relações e a liderança nas equipes",
+        "enfrenta conflitos, retrabalho ou dificuldades na organização dos processos",
+        "precisa estruturar práticas de gestão de pessoas e responsabilidades",
+        "busca desenvolver competências, fortalecer equipes e alinhar pessoas, processos e objetivos",
+        "precisa de apoio para decisões e transições de carreira"
+      ],
+      "extra": "",
+      "cta_label": "Conversar sobre consultoria organizacional",
+      "cta_message": "Olá Hellen, encontrei seu site e gostaria de informações sobre consultoria organizacional.",
+      "note": "Conte quais são os desafios da sua empresa ou os objetivos do seu desenvolvimento profissional. O escopo e o formato de trabalho são definidos conforme cada necessidade."
+    }
+  ],
+  "faq": [
+    { "q": "Como funciona a psicanálise?", "a": "A psicanálise busca compreender como nossa história, nossos desejos e conflitos influenciam a maneira como sentimos, fazemos escolhas e nos relacionamos. Por meio da fala e da escuta, é possível reconhecer padrões e construir novas compreensões sobre si e suas relações." },
+    { "q": "Preciso saber o que falar na sessão?", "a": "Não. Você pode começar pelo que está sentindo ou vivendo, mesmo que ainda não consiga organizar tudo em palavras. Não é preciso ter respostas prontas." },
+    { "q": "Quem vai me atender?", "a": "O atendimento será realizado diretamente por mim, Hellen Matos, desde o primeiro contato até as sessões. Você terá um espaço de escuta individualizado, conduzido com cuidado, responsabilidade e respeito à sua história." },
+    { "q": "O atendimento é sigiloso?", "a": "Sim. Seu atendimento é um espaço de privacidade e segurança, e o sigilo profissional é um compromisso ético da Psicologia. O que você compartilha é tratado com confidencialidade, respeitadas as exceções previstas nas normas profissionais e na legislação." },
+    { "q": "Qual é a diferença entre terapia individual e terapia de casal?", "a": "Na terapia individual, o foco está na sua história, nos conflitos e nas escolhas pessoais. Na terapia de casal, o trabalho se concentra na relação, na comunicação e nas questões que atravessam a vida a dois." },
+    { "q": "Quanto tempo dura cada sessão?", "a": "Em média, de 50 minutos a uma hora. A duração pode variar conforme as necessidades e o aprofundamento do encontro, respeitando os limites técnicos do atendimento." },
+    { "q": "Quanto tempo dura o processo terapêutico?", "a": "Depende das questões trabalhadas, dos objetivos e do percurso de cada pessoa ou casal. Não existe um prazo único; o processo é construído de acordo com cada caso." },
+    { "q": "Consigo atendimento em horários flexíveis?", "a": "Sim. Há possibilidade de horários entre 6h e 22h, conforme disponibilidade de agenda. Essa flexibilidade busca facilitar o acesso à terapia para quem precisa conciliar os atendimentos com trabalho, estudos e outras responsabilidades." },
+    { "q": "E se eu não puder pagar o valor integral?", "a": "Acredito que as condições financeiras não devem impedir alguém de buscar ajuda. Por isso, disponibilizo vagas para atendimento social, destinadas a pessoas que não conseguem arcar com o investimento integral. A oferta depende de disponibilidade e de avaliação individual da possibilidade de atendimento." },
+    { "q": "A psicologia pode ajudar nas decisões de carreira?", "a": "Sim. A orientação de carreira pode ajudar a compreender interesses, competências e valores, explorar possibilidades profissionais e tomar decisões sobre transições e desenvolvimento de carreira." },
+    { "q": "Qual é a diferença entre orientação de carreira e consultoria organizacional?", "a": "A orientação de carreira é voltada às escolhas e ao desenvolvimento profissional da pessoa. Já a consultoria organizacional atende empresas e equipes, com soluções em Psicologia Organizacional, gestão de pessoas e modelagem de processos." },
+    { "q": "O atendimento pode ser on-line?", "a": "Sim. Ofereço atendimento on-line para pessoas em todo o Brasil e para brasileiros que vivem no exterior, observadas as condições profissionais e regulamentares aplicáveis." },
+    { "q": "O consultório tem estacionamento?", "a": "Sim. O consultório presencial em Aracaju, Sergipe, conta com estacionamento amplo e gratuito para sua comodidade." },
+    { "q": "Como consultar valores e agendar?", "a": "Entre em contato pelo WhatsApp para consultar os valores, verificar os horários disponíveis e conhecer as modalidades de atendimento. O primeiro passo pode ser uma conversa. Entre em contato comigo pelo WhatsApp para esclarecer suas dúvidas e conhecer as possibilidades de atendimento." }
+  ],
+  "carrossel": [
+    { "src": "img/consultorio-08.jpg", "alt": "Poltrona com manta e almofadas terracota, mesinhas douradas e abajur junto à janela." },
+    { "src": "img/consultorio-04.jpg", "alt": "Notebook e tablet exibindo o monograma HM sobre a mesa, com a janela e o sofá ao fundo." },
+    { "src": "img/consultorio-02.jpg", "alt": "Sofá com manta e almofadas claras, bambu decorativo e quadros na parede ao lado da janela." },
+    { "src": "img/consultorio-09.jpg", "alt": "Prateleiras brancas e douradas, capim-dos-pampas e mesa de trabalho com cadeira, sob luz indireta." },
+    { "src": "img/consultorio-06.jpg", "alt": "Notebook e tablet com o monograma HM; ao fundo, a janela com cortinas, o abajur de chão e o espelho." },
+    { "src": "img/consultorio-01.jpg", "alt": "Poltrona e sofá claros ao lado de uma janela ampla, com espelho redondo, abajur rosado e luz quente no teto." },
+    { "src": "img/consultorio-07.jpg", "alt": "Notebook e tablet com o monograma HM em primeiro plano, com o bambu, os quadros e o sofá ao fundo." },
+    { "src": "img/consultorio-10.jpg", "alt": "Sofá com manta, quadros na parede, prateleiras douradas e mesa de trabalho ao fundo." },
+    { "src": "img/consultorio-03.jpg", "alt": "Visão geral do consultório: espelho, poltrona, sofá e janela com luz natural." }
+  ]
+}

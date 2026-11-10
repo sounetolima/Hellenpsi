@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "conteudo"
+        label: "Textos e fotos do site"
+        file: "content/site.json"
+        fields:
+          - label: "Sobre"
+            name: "sobre"
+            widget: "object"
+            fields:
+              - { label: "Parágrafo 1", name: "p1", widget: "text" }
+              - { label: "Parágrafo 2", name: "p2", widget: "text" }
+              - { label: "Parágrafo 3", name: "p3", widget: "text" }
+              - { label: "Parágrafo 4 (atendimento)", name: "p4", widget: "text" }
+          - label: "Foto da Hellen (seção Sobre)"
+            name: "foto_sobre"
+            widget: "image"
+            required: false
+          - label: "Atendimentos (4 abas, nesta ordem)"
+            name: "atendimentos"
+            widget: "list"
+            fields:
+              - { label: "Título da aba", name: "title", widget: "string" }
+              - { label: "Descrição", name: "text", widget: "text" }
+              - { label: "Rótulo do topo da lista", name: "eyebrow", widget: "string" }
+              - { label: "Itens da lista", name: "bullets", widget: "list" }
+              - { label: "Parágrafo extra (opcional)", name: "extra", widget: "text", required: false }
+              - { label: "Texto do botão", name: "cta_label", widget: "string" }
+              - { label: "Mensagem enviada no WhatsApp", name: "cta_message", widget: "string" }
+              - { label: "Texto pequeno abaixo do botão", name: "note", widget: "string" }
+          - label: "Perguntas frequentes"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Pergunta", name: "q", widget: "string" }
+              - { label: "Resposta", name: "a", widget: "text" }
+          - label: "Fotos do consultório (carrossel)"
+            name: "carrossel"
+            widget: "list"
+            fields:
+              - { label: "Foto", name: "src", widget: "image" }
+              - { label: "Descrição (acessibilidade)", name: "alt", widget: "string" }
