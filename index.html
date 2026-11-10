@@ -317,6 +317,13 @@ ul,ol{padding:0;list-style:none}
 }
 </style>
 <noscript><style>.painel[hidden]{display:block!important;margin-bottom:16px}</style></noscript>
+<script src="https://unpkg.com/netlify-identity-widget@1.9.2/build/netlify-identity-widget.js"></script>
+<script>
+/* Convite / redefinição de senha do painel: depois do login, vai para /admin */
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on('login', function(){ window.location.href = '/admin/'; });
+}
+</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
