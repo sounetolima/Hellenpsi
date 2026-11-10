@@ -81,30 +81,87 @@
     }
   ],
   "faq": [
-    { "q": "Como funciona a psicanálise?", "a": "A psicanálise busca compreender como nossa história, nossos desejos e conflitos influenciam a maneira como sentimos, fazemos escolhas e nos relacionamos. Por meio da fala e da escuta, é possível reconhecer padrões e construir novas compreensões sobre si e suas relações." },
-    { "q": "Preciso saber o que falar na sessão?", "a": "Não. Você pode começar pelo que está sentindo ou vivendo, mesmo que ainda não consiga organizar tudo em palavras. Não é preciso ter respostas prontas." },
-    { "q": "Quem vai me atender?", "a": "O atendimento será realizado diretamente por mim, Hellen Matos, desde o primeiro contato até as sessões. Você terá um espaço de escuta individualizado, conduzido com cuidado, responsabilidade e respeito à sua história." },
-    { "q": "O atendimento é sigiloso?", "a": "Sim. Seu atendimento é um espaço de privacidade e segurança, e o sigilo profissional é um compromisso ético da Psicologia. O que você compartilha é tratado com confidencialidade, respeitadas as exceções previstas nas normas profissionais e na legislação." },
-    { "q": "Qual é a diferença entre terapia individual e terapia de casal?", "a": "Na terapia individual, o foco está na sua história, nos conflitos e nas escolhas pessoais. Na terapia de casal, o trabalho se concentra na relação, na comunicação e nas questões que atravessam a vida a dois." },
-    { "q": "Quanto tempo dura cada sessão?", "a": "Em média, de 50 minutos a uma hora. A duração pode variar conforme as necessidades e o aprofundamento do encontro, respeitando os limites técnicos do atendimento." },
-    { "q": "Quanto tempo dura o processo terapêutico?", "a": "Depende das questões trabalhadas, dos objetivos e do percurso de cada pessoa ou casal. Não existe um prazo único; o processo é construído de acordo com cada caso." },
-    { "q": "Consigo atendimento em horários flexíveis?", "a": "Sim. Há possibilidade de horários entre 6h e 22h, conforme disponibilidade de agenda. Essa flexibilidade busca facilitar o acesso à terapia para quem precisa conciliar os atendimentos com trabalho, estudos e outras responsabilidades." },
-    { "q": "E se eu não puder pagar o valor integral?", "a": "Acredito que as condições financeiras não devem impedir alguém de buscar ajuda. Por isso, disponibilizo vagas para atendimento social, destinadas a pessoas que não conseguem arcar com o investimento integral. A oferta depende de disponibilidade e de avaliação individual da possibilidade de atendimento." },
-    { "q": "A psicologia pode ajudar nas decisões de carreira?", "a": "Sim. A orientação de carreira pode ajudar a compreender interesses, competências e valores, explorar possibilidades profissionais e tomar decisões sobre transições e desenvolvimento de carreira." },
-    { "q": "Qual é a diferença entre orientação de carreira e consultoria organizacional?", "a": "A orientação de carreira é voltada às escolhas e ao desenvolvimento profissional da pessoa. Já a consultoria organizacional atende empresas e equipes, com soluções em Psicologia Organizacional, gestão de pessoas e modelagem de processos." },
-    { "q": "O atendimento pode ser on-line?", "a": "Sim. Ofereço atendimento on-line para pessoas em todo o Brasil e para brasileiros que vivem no exterior, observadas as condições profissionais e regulamentares aplicáveis." },
-    { "q": "O consultório tem estacionamento?", "a": "Sim. O consultório presencial em Aracaju, Sergipe, conta com estacionamento amplo e gratuito para sua comodidade." },
-    { "q": "Como consultar valores e agendar?", "a": "Entre em contato pelo WhatsApp para consultar os valores, verificar os horários disponíveis e conhecer as modalidades de atendimento. O primeiro passo pode ser uma conversa. Entre em contato comigo pelo WhatsApp para esclarecer suas dúvidas e conhecer as possibilidades de atendimento." }
+    {
+      "q": "Como funciona a psicanálise?",
+      "a": "A psicanálise busca compreender como nossa história, nossos desejos e conflitos influenciam a maneira como sentimos, fazemos escolhas e nos relacionamos. Por meio da fala e da escuta, é possível reconhecer padrões e construir novas compreensões sobre si e suas relações."
+    },
+    {
+      "q": "Preciso saber o que falar na sessão?",
+      "a": "Não. Você pode começar pelo que está sentindo ou vivendo, mesmo que ainda não consiga organizar tudo em palavras. Não é preciso ter respostas prontas."
+    },
+    {
+      "q": "Quem vai me atender?",
+      "a": "O atendimento será realizado diretamente por mim, Hellen Matos, desde o primeiro contato até as sessões. Você terá um espaço de escuta individualizado, conduzido com cuidado, responsabilidade e respeito à sua história."
+    },
+    {
+      "q": "O atendimento é sigiloso?",
+      "a": "Sim. Seu atendimento é um espaço de privacidade e segurança, e o sigilo profissional é um compromisso ético da Psicologia. O que você compartilha é tratado com confidencialidade, respeitadas as exceções previstas nas normas profissionais e na legislação."
+    },
+    {
+      "q": "Qual é a diferença entre terapia individual e terapia de casal?",
+      "a": "Na terapia individual, o foco está na sua história, nos conflitos e nas escolhas pessoais. Na terapia de casal, o trabalho se concentra na relação, na comunicação e nas questões que atravessam a vida a dois."
+    },
+    {
+      "q": "Quanto tempo dura cada sessão?",
+      "a": "Em média, de 50 minutos a uma hora. A duração pode variar conforme as necessidades e o aprofundamento do encontro, respeitando os limites técnicos do atendimento."
+    },
+    {
+      "q": "Quanto tempo dura o processo terapêutico?",
+      "a": "Depende das questões trabalhadas, dos objetivos e do percurso de cada pessoa ou casal. Não existe um prazo único; o processo é construído de acordo com cada caso."
+    },
+    {
+      "q": "Consigo atendimento em horários flexíveis?",
+      "a": "Sim. Há possibilidade de horários entre 6h e 22h, conforme disponibilidade de agenda. Essa flexibilidade busca facilitar o acesso à terapia para quem precisa conciliar os atendimentos com trabalho, estudos e outras responsabilidades."
+    },
+    {
+      "q": "E se eu não puder pagar o valor integral?",
+      "a": "Acredito que as condições financeiras não devem impedir alguém de buscar ajuda. Por isso, disponibilizo vagas para atendimento social, destinadas a pessoas que não conseguem arcar com o investimento integral. A oferta depende de disponibilidade e de avaliação individual da possibilidade de atendimento."
+    },
+    {
+      "q": "A psicologia pode ajudar nas decisões de carreira?",
+      "a": "Sim. A orientação de carreira pode ajudar a compreender interesses, competências e valores, explorar possibilidades profissionais e tomar decisões sobre transições e desenvolvimento de carreira."
+    },
+    {
+      "q": "Qual é a diferença entre orientação de carreira e consultoria organizacional?",
+      "a": "A orientação de carreira é voltada às escolhas e ao desenvolvimento profissional da pessoa. Já a consultoria organizacional atende empresas e equipes, com soluções em Psicologia Organizacional, gestão de pessoas e modelagem de processos."
+    },
+    {
+      "q": "O atendimento pode ser on-line?",
+      "a": "Sim. Ofereço atendimento on-line para pessoas em todo o Brasil e para brasileiros que vivem no exterior, observadas as condições profissionais e regulamentares aplicáveis."
+    },
+    {
+      "q": "O consultório tem estacionamento?",
+      "a": "Sim. O consultório presencial em Aracaju, Sergipe, conta com estacionamento amplo e gratuito para sua comodidade."
+    },
+    {
+      "q": "Como consultar valores e agendar?",
+      "a": "Entre em contato pelo WhatsApp para consultar os valores, verificar os horários disponíveis e conhecer as modalidades de atendimento. O primeiro passo pode ser uma conversa. Entre em contato comigo pelo WhatsApp para esclarecer suas dúvidas e conhecer as possibilidades de atendimento."
+    }
   ],
   "carrossel": [
-    { "src": "img/consultorio-08.jpg", "alt": "Poltrona com manta e almofadas terracota, mesinhas douradas e abajur junto à janela." },
-    { "src": "img/consultorio-04.jpg", "alt": "Notebook e tablet exibindo o monograma HM sobre a mesa, com a janela e o sofá ao fundo." },
-    { "src": "img/consultorio-02.jpg", "alt": "Sofá com manta e almofadas claras, bambu decorativo e quadros na parede ao lado da janela." },
-    { "src": "img/consultorio-09.jpg", "alt": "Prateleiras brancas e douradas, capim-dos-pampas e mesa de trabalho com cadeira, sob luz indireta." },
-    { "src": "img/consultorio-06.jpg", "alt": "Notebook e tablet com o monograma HM; ao fundo, a janela com cortinas, o abajur de chão e o espelho." },
-    { "src": "img/consultorio-01.jpg", "alt": "Poltrona e sofá claros ao lado de uma janela ampla, com espelho redondo, abajur rosado e luz quente no teto." },
-    { "src": "img/consultorio-07.jpg", "alt": "Notebook e tablet com o monograma HM em primeiro plano, com o bambu, os quadros e o sofá ao fundo." },
-    { "src": "img/consultorio-10.jpg", "alt": "Sofá com manta, quadros na parede, prateleiras douradas e mesa de trabalho ao fundo." },
-    { "src": "img/consultorio-03.jpg", "alt": "Visão geral do consultório: espelho, poltrona, sofá e janela com luz natural." }
+    {
+      "src": "img/consultorio-08.jpg",
+      "alt": "Poltrona com manta e almofadas terracota, mesinhas douradas e abajur junto à janela."
+    },
+    {
+      "src": "img/consultorio-02.jpg",
+      "alt": "Sofá com manta e almofadas claras, bambu decorativo e quadros na parede ao lado da janela."
+    },
+    {
+      "src": "img/consultorio-06.jpg",
+      "alt": "Notebook e tablet com o monograma HM; ao fundo, a janela com cortinas, o abajur de chão e o espelho."
+    },
+    {
+      "src": "img/consultorio-01.jpg",
+      "alt": "Poltrona e sofá claros ao lado de uma janela ampla, com espelho redondo, abajur rosado e luz quente no teto."
+    },
+    {
+      "src": "img/consultorio-07.jpg",
+      "alt": "Notebook e tablet com o monograma HM em primeiro plano, com o bambu, os quadros e o sofá ao fundo."
+    },
+    {
+      "src": "img/consultorio-03.jpg",
+      "alt": "Visão geral do consultório: espelho, poltrona, sofá e janela com luz natural."
+    }
   ]
 }
